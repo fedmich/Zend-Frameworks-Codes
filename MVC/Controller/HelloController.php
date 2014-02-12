@@ -14,4 +14,11 @@ class HelloController extends AbstractActionController
     {
 		return new ViewModel();
     }
+	
+	public function fooAction()
+    {
+        echo 'FOO';
+        //	return new ViewModel();
+    }
+
 }

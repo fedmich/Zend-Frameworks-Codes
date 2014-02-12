@@ -10,4 +10,8 @@ class HelloController extends AbstractActionController
     {
 		return new ViewModel();
     }
+	public function worldAction()
+    {
+		return new ViewModel();
+    }
 }
